@@ -3,6 +3,8 @@
 Le présent dépôt GitHub propose un gabarit MkDocs Material respectant 
 le [système de design du gouvernement du Québec](https://design.quebec.ca/apercu/systeme).
 
+![](docs/assets/fig1.png)
+
 [MkDocs](https://www.mkdocs.org/) est un générateur de site statique rapide, simple et attrayant, 
 conçu spécialement pour la création de documentation de projet.
 
@@ -15,8 +17,8 @@ de créer des interfaces utilisateur modernes, attrayantes et cohérentes.
 
 ## Utilisation
 
-Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son poste de travail.
-Il n'a pas accès à la fenêtre du terminal, n'a pas python. 
+Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son poste de travail,
+n'a pas accès à la fenêtre du terminal, et n'a pas python. 
 
 ### Étape 1: 
 
