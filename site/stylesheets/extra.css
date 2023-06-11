@@ -1,0 +1,151 @@
+/* Palette de couleurs. Source https://design.quebec.ca/bases/couleurs */
+:root {
+    
+    --qc-color-white: white;
+    --qc-color-blue-pale: #dae6f0;
+    --qc-color-blue-light: #4a98d9;
+    --qc-color-blue-regular: #1479cc;
+    --qc-color-blue-piv: #095797;
+    --qc-color-blue-medium: #19406C;
+    --qc-color-blue-dark: #223654;
+    --qc-color-purple: #6b4fa1;
+    --qc-color-grey-pale: #f1f1f2;
+    --qc-color-grey-light: #c5cad2;
+    --qc-color-grey-regular: #8893a2;
+    --qc-color-grey-medium: #6b778a;
+    --qc-color-grey-dark: #4e5662;
+    --qc-color-pink-pale: #ffdbd6;
+    --qc-color-pink-regular: #e58271;
+    --qc-color-red-regular: #cb381f;
+    --qc-color-red-dark: #692519;
+    --qc-color-green-pale: #d7f0bb;
+    --qc-color-green-regular: #4f813d;
+    --qc-color-green-dark: #2c4024;
+    --qc-color-yellow-pale: #f8e69a;
+    --qc-color-yellow-regular: #e0ad03;
+    --qc-color-yellow-dark: #ad781c;
+    --qc-color-text-primary: var(--qc-color-blue-dark);
+    --qc-color-accent: var(--qc-color-pink-regular);
+    --qc-color-success: var(--qc-color-green-regular);
+    --qc-color-error: var(--qc-color-red-regular);
+    --qc-color-danger: var(--qc-color-red-dark);
+    --qc-color-link-text: var(--qc-color-blue-piv);
+    --qc-color-link-hover: var(--qc-color-blue-piv);
+    --qc-color-link-visited: var(--qc-color-purple);
+    --qc-color-link-active: var(--qc-color-red-regular);
+
+    --md-typeset-a-color: var(--qc-color-link-text);
+    --md-typeset-a-color--light: var(--qc-color-link-text);
+    --md-typeset-a-color--dark: var(--qc-color-link-text);
+}
+
+/* Zone du haut où on voit le logo du Québec. */
+.md-header {
+    background-color: var(--qc-color-blue-piv);
+}
+
+/* Seconde zone du haut où on voit les sections. */
+.md-tabs {
+    background-color: var(--qc-color-blue-dark);
+    color: var(--qc-color-white);
+}
+
+/* Zone en bas. */
+.md-footer {
+    background-color: var(--qc-color-blue-dark);
+    color: var(--qc-color-white);
+}
+
+/* Réduire l'espace au début du texte. */
+.md-main__inner {
+    margin-top: 0.5rem;
+}
+
+/* Menu de gauche. Ajuster la couleur du titre. */
+.md-nav--lifted>.md-nav__list>.md-nav__item>[for] {
+    color: var(--md-default-fg-color);
+}
+
+/* Ajuster les titres. */
+.md-typeset h1 {
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+    margin: 0px 0px 8px;
+}
+
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    font-weight: 600;
+    margin: 16px 0px 8px;
+}
+
+.md-content a:link { 
+    text-decoration: underline;
+    color: var(--md-typeset-a-color);
+}
+
+.md-content a:hover {
+    text-decoration: none;
+    color: var(--md-typeset-a-color);
+}
+
+.md-nav__item a.md-nav__link:link {
+    text-decoration: none;
+    color: var(--md-typeset-a-color);
+}
+
+.md-nav__item a.md-nav__link:hover {
+    text-decoration: underline;
+    color: var(--md-typeset-a-color);
+}
+
+p {
+    /*color: #333333;*/
+    font-size: 16px;
+    margin: 12px 0px;
+    line-height: 1.4;
+}
+
+ul {
+    margin: 0 !important;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+li {
+    /*color: #333333;*/
+    font-size: 16px;
+    margin: 4px 0px;
+}
+
+.md-typeset table:not([class]) {
+    font-size: 16px !important;
+}
+
+.md-typeset table:not([class]) th {
+    padding: 6px 13px;
+}
+
+.md-typeset table:not([class]) td {
+    padding: 6px 13px;
+}
+
+.md-typeset code {
+    font-size: 14px;
+    /*color: #D13118;*/
+    /*background-color: #F3F2F1;*/
+}
+
+/* Avertissement. Warning. */
+.md-typeset .admonition.warning, .md-typeset details.warning {
+    border-color: #E58271
+}
+
+.md-typeset .warning>.admonition-title, .md-typeset .warning>summary {
+    background-color: #FFDBD6;
+}
+
+
