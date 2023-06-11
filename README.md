@@ -18,7 +18,7 @@ ensemble de principes et de directives de conception permettant de créer des in
 
 Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son ordinateur, n'a pas accès à la fenêtre du terminal et n'a pas Python.
 
-**Étape 1**: Télécharger le gabarit MkDocs
+### Étape 1: Télécharger le gabarit MkDocs
 
 Téléchargez ce dépôt GitHub au format ZIP en cliquant sur le bouton **Code**, puis sélectionnez **Download ZIP**.
 
