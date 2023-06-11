@@ -1,4 +1,4 @@
-# MkDocs Material Template
+# Gabarit MkDocs Material 
 
 Le présent dépôt GitHub propose un gabarit MkDocs Material respectant (le plus possible)
 le [système de design du gouvernement du Québec](https://design.quebec.ca/apercu/systeme).
@@ -17,15 +17,19 @@ de créer des interfaces utilisateur modernes, attrayantes et cohérentes.
 
 ## Utilisation
 
-Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son poste de travail,
+Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son ordinateur,
 n'a pas accès à la fenêtre du terminal, et n'a pas python. 
 
-**Étape 1**: Téléchargez le dépôt GitHub en format compressé ZIP. 
+**Étape 1**: Téléchargez le gabarit
 
-Sauvegardez le fichier ZIP sur votre poste de travail 
-et décompressez-le dans un répertoire.
+Téléchargez le présent dépôt GitHub en format compressé ZIP. Pour ce faire, cliquez sur le bouton **Code** 
+et sélectionnez **Download ZIP**. 
 
 ![](docs/assets/fig2.png)
+
+Sauvegardez le fichier ZIP sur votre ordinateur. 
+Ensuite, décompressez ce fichier ZIP (`mkdocs-material-quebec-main.zip`) dans un répertoire.
+
 
 **Étape 2**: Ajoutez et/ou modifiez les pages de documentation.
 
