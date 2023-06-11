@@ -114,7 +114,7 @@ Ouvrez ce [fichier Google Colab](https://colab.research.google.com/drive/17bBL-o
 Google Colab est une plateforme de développement et d'exécution de code en ligne, gratuit, principalement 
 utilisée pour le langage de programmation Python. 
 
-Exécutez la cellule en cliquant sur le symbol <img src="docs/assets/bouton-jouer.png" size="50">.
+Exécutez la cellule en cliquant sur le symbol <img src="docs/assets/bouton-jouer.png" width="20">.
 
 Colab va vous demander de sélectionner le fichier à charger sur le serveur. Sélectionnez le 
 le fichier `mkdocs-material-quebec.zip`. 
