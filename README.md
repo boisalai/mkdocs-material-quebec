@@ -18,13 +18,14 @@ ensemble de principes et de directives de conception permettant de créer des in
 
 Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son ordinateur, n'a pas accès à la fenêtre du terminal et n'a pas Python.
 
-### Étape 1: Télécharger le gabarit MkDocs
+### Étape 1: Téléchargez le gabarit MkDocs
 
-Téléchargez ce dépôt GitHub au format ZIP en cliquant sur le bouton **Code**, puis sélectionnez **Download ZIP**.
+Téléchargez ce [dépôt GitHub](https://github.com/boisalai/mkdocs-material-quebec) au format ZIP en cliquant sur le bouton **Code**, 
+puis sélectionnez **Download ZIP**.
 
 ![Téléchargement ZIP](docs/assets/fig2.png)
 
-Ensuite, décompressez le fichier ZIP (`mkdocs-material-quebec-main.zip`). 
+Ensuite, décompressez le fichier ZIP (son nom devrait être `mkdocs-material-quebec-main.zip`). 
 Vous pouvez déplacer le répertoire `mkdocs-material-quebec-main` où vous le souhaitez sur votre ordinateur ou votre réseau local.
 
 Voici la structure de ce répertoire :
@@ -59,15 +60,22 @@ Voici la structure de ce répertoire :
 └── mkdocs.yml
 ```
 
-Vous pouvez supprimer les fichiers `README.md` et `git.sh`.
+Le répertoire contient quatre types de fichiers :
 
-Le fichier `mkdocs.yml` est un fichier de configuration.
+* Les fichiers `*.md` sont des fichiers de documentation en format Markdown. 
+* Les fichiers `*.png` sont des images.
+* Le fichier `docs/stylesheets/extra.css` est un fichier de styles CSS pour reproduire le design du gouvernement du Québec.
+* Le fichier `mkdocs.yml` est un fichier de configuration. 
 
-Le répertoire `docs/assets/` contient les images utiles (par exemple, le logo du gouvernement du Québec).
+Le répertoire `docs/assets/` contient les images utiles (par exemple, le logo du gouvernement du Québec). Normalement, vous ne devriez pas 
+modifier ce répertoire.
 
-Les répertoires `docs/home`, `docs/part1` et `docs/part2` contiennent des pages de documentation sous la forme de fichiers au format Markdown.
+Les répertoires `docs/home`, `docs/part1` et `docs/part2` contiennent des pages de votre documentation sous la forme de fichiers au format 
+Markdown. Vous pouve modifier ces répertoires et leurs fichiers pour créer votre propre documentation.
 
-**Étape 2**: Ajouter et/ou modifier les pages de documentation
+Vous pouvez supprimer les fichiers `README.md` et `git.sh` qui sont inutiles pour votre usage.
+
+### Étape 2: Rédigez votre documentation
 
 Rédigez votre documentation dans des fichiers au format Markdown (avec l'extension `.md`) à l'intérieur du répertoire `docs`.
 
@@ -76,7 +84,7 @@ sans avoir à installer l'application sur votre ordinateur. Il suffit de vous re
 
 ![](docs/assets/fig3.png)
 
-**Étape 3**: Modifiez le fichier de configuration `mkdocs.yml`.
+### Étape 3: Ajustez le fichier de configuration `mkdocs.yml`.
 
 Changez la ligne `site_name:` en remplaçant le nom par celui de votre documentation.
 
@@ -101,7 +109,7 @@ nav:
 
 N'hésitez pas à modifier le contenu et la structure de votre documentation selon vos besoins. 
 
-**Étape 4**: Générez votre documentation sous la forme d'un site statique
+### Étape 4: Générez votre documentation 
 
 Compressez le répertoire `mkdocs-material-quebec-main` pour créer le fichier `mkdocs-material-quebec-main.zip`.
 
