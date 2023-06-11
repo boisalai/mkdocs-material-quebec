@@ -1,4 +1,4 @@
-site_name: Direction générale des infrastructures
+site_name: Direction XYZ
 theme:
   name: material
   language: fr
@@ -31,7 +31,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-copyright: Copyright &copy; 2023 - 2023 Ministère de l'Enseignement supérieur, Direction générale des infrastructures
+copyright: Copyright &copy; 2023 Direction XYZ
 extra:
   generator: false
 extra_css:

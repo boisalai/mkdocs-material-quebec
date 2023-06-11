@@ -1,7 +1,5 @@
 # Welcome to MkDocs
 
-> index.md, 11 juin 2023 08h22.
-
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
