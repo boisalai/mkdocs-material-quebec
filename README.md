@@ -127,13 +127,3 @@ fichier compressé de votre documentation (`docum.zip`).
 Ensuite, Google Colab générera une nouvelle version de votre site statique et 
 téléversera automatiquement sur votre ordinateur le fichier compressé `site.zip`. 
 Décompressez-le pour accéder à votre documentation mise à jour.
-
-
-
-
-
-
-
-
-
-
