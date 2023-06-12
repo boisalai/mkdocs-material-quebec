@@ -33,22 +33,20 @@ Voici la structure de ce répertoire :
 
 ```txt
 mkdocs-material-quebec-main
+├── LICENSE
 ├── README.md
 ├── docs
 │   ├── assets
+│   │   ├── bouton-jouer.png
 │   │   ├── favicon-32x32.png
 │   │   ├── fig1.png
 │   │   ├── fig2.png
 │   │   ├── fig3.png
 │   │   └── signature-PIV.svg
 │   ├── home
-│   │   ├── Markdown-Cheatsheet.md ***
 │   │   ├── about.md
-│   │   ├── index.md
-│   │   └── markdown-folder
-│   │       ├── assets
-│   │       │   └── 3.png
-│   │       └── markdown.md
+│   │   └── markdown-cheat-sheet.md
+│   ├── index.md
 │   ├── part1
 │   │   ├── page1.md
 │   │   └── page2.md
@@ -65,7 +63,7 @@ Le répertoire contient quatre types de fichiers :
 
 * Les fichiers `*.md` sont des fichiers de documentation en format Markdown. 
 * Les fichiers `*.png` sont des images.
-* Le fichier `docs/stylesheets/extra.css` est un fichier de styles CSS pour reproduire le design du gouvernement du Québec.
+* Le fichier `extra.css` est un fichier de styles CSS pour reproduire le design du gouvernement du Québec.
 * Le fichier `mkdocs.yml` est un fichier de configuration. 
 
 Le répertoire `docs/assets/` contient les images utiles (par exemple, le logo du gouvernement du Québec). Normalement, vous ne devriez pas 
