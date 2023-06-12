@@ -1,22 +1,22 @@
 # Gabarit MkDocs Material
 
-Ce dépôt GitHub propose un gabarit MkDocs Material qui respecte, dans la mesure du possible, le 
+Ce dépôt GitHub propose un gabarit MkDocs Material respectant (version beta) le 
 [système de design du gouvernement du Québec](https://design.quebec.ca/apercu/systeme).
 
 ![Aperçu](docs/assets/fig1.png)
 
 [MkDocs](https://www.mkdocs.org/) est un générateur de site statique rapide, simple et attrayant, spécialement conçu pour créer la 
-documentation de projets.
-
-Les fichiers sources de la documentation sont rédigés en [Markdown](https://www.markdownguide.org/) et configurés à l'aide d'un seul fichier 
-de configuration YAML.
+documentation de projets. Les fichiers sources de la documentation sont rédigés en [Markdown](https://www.markdownguide.org/) 
+et configurés à l'aide d'un seul fichier de configuration YAML.
 
 [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) est un thème pour le générateur de documentation MkDocs qui propose un 
 ensemble de principes et de directives de conception permettant de créer des interfaces utilisateur modernes, attrayantes et cohérentes.
 
 ## Utilisation
 
-Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son ordinateur, n'a pas accès à la fenêtre du terminal de son ordinateur et n'a peut pas exécuter de scripts Python.
+Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son ordinateur, 
+n'a pas accès à la fenêtre du terminal de son ordinateur, ne peut pas installer de librairies 
+et n'a peut pas exécuter de scripts Python.
 
 ### Étape 1: Téléchargez le gabarit MkDocs
 
@@ -32,31 +32,31 @@ votre ordinateur ou votre réseau local.
 Voici la structure de ce répertoire :
 
 ```txt
-.
+mkdocs-material-quebec-main
 ├── README.md
 ├── docs
-│   ├── assets
-│   │   ├── favicon-32x32.png
-│   │   ├── fig1.png
-│   │   ├── fig2.png
-│   │   ├── fig3.png
-│   │   └── signature-PIV.svg
-│   ├── home
-│   │   ├── Markdown-Cheatsheet.md
-│   │   ├── about.md
-│   │   ├── index.md
-│   │   └── markdown-folder
-│   │       ├── assets
-│   │       │   └── 3.png
-│   │       └── markdown.md
-│   ├── part1
-│   │   ├── page1.md
-│   │   └── page2.md
-│   ├── part2
-│   │   ├── page1.md
-│   │   └── page2.md
-│   └── stylesheets
-│       └── extra.css
+│   ├── assets
+│   │   ├── favicon-32x32.png
+│   │   ├── fig1.png
+│   │   ├── fig2.png
+│   │   ├── fig3.png
+│   │   └── signature-PIV.svg
+│   ├── home
+│   │   ├── Markdown-Cheatsheet.md
+│   │   ├── about.md
+│   │   ├── index.md
+│   │   └── markdown-folder
+│   │       ├── assets
+│   │       │   └── 3.png
+│   │       └── markdown.md
+│   ├── part1
+│   │   ├── page1.md
+│   │   └── page2.md
+│   ├── part2
+│   │   ├── page1.md
+│   │   └── page2.md
+│   └── stylesheets
+│       └── extra.css
 ├── git.sh
 └── mkdocs.yml
 ```
@@ -92,11 +92,12 @@ Avec [VS Code](https://vscode.dev/), changez la ligne `site_name:` en remplaçan
 Ajustez la structure de navigation dans la section `nav:` pour qu'elle corresponde à votre structure de documentation.
 
 ```yaml
-site_name: Direction XYZ
+site_name: Titre de la documentation à remplacer
+copyright: Texte apparaissant au bas des pages à remplacer
 [...]
 nav:
   - Accueil:
-    - home/index.md
+    - index.md
     - home/markdown-folder/markdown.md
     - home/Markdown-Cheatsheet.md
     - home/about.md

@@ -1,11 +1,12 @@
-site_name: Direction XYZ
+site_name: Titre de la documentation à remplacer
+copyright: Texte apparaissant au bas des pages à remplacer
 theme:
   name: material
   language: fr
   favicon: assets/favicon-32x32.png
   logo: assets/signature-PIV.svg
   font:
-    text: Lato
+    text: "Open Sans"
     code: Roboto Mono
   features:
     - navigation.tabs
@@ -17,23 +18,9 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
-copyright: Copyright &copy; 2023 Direction XYZ
 extra:
   generator: false
+  homepage: index.html
 extra_css:
   - stylesheets/extra.css
 plugins:
@@ -49,11 +36,13 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - tables
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
 nav:
   - Accueil:
-    - home/index.md
-    - home/markdown-folder/markdown.md
-    - home/Markdown-Cheatsheet.md
+    - index.md
+    - home/markdown-cheat-sheet.md
     - home/about.md
   - Section 1:
     - part1/page1.md
@@ -61,4 +50,3 @@ nav:
   - Section 2:
     - part2/page1.md
     - part2/page2.md
-    - part2/page3.md

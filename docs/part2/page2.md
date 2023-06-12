@@ -1,79 +1,57 @@
-# Titre de la page 2
+# Titre de la page 2 section 2
 
-> *Project documentation with Markdown*
+## Vocabat vestrumque morte
 
-[![PyPI Version][pypi-v-image]][pypi-v-link]
-[![Build Status][GHAction-image]][GHAction-link]
-[![Coverage Status][codecov-image]][codecov-link]
+Lorem **markdownum** luctisono manu vultus non nisi vestrum genus, male?
+Quicquam sub et adiit [gravis campos in](http://www.domabile-medullas.com/ratem)
+nec dixit quid forma nitidissima videre.
 
-MkDocs is a **fast**, **simple** and **downright gorgeous** static site
-generator that's geared towards building project documentation. Documentation
-source files are written in Markdown, and configured with a single YAML
-configuration file. It is designed to be easy to use and can be extended with
-third-party themes, plugins, and Markdown extensions.
+- Cum tuque Agenore fores Danaas miserorum idemque
+- O certe Messapiaque grave vestigia utque sagittae
+- Carne dumque
+- Graviora suaque nefas exosus inmemores questi partem
+- Ullis ille ea longum
 
-Please see the [Documentation][mkdocs] for an introductory tutorial and a full
-user guide.
+Vates malis, est atque, quam saepe obicit resonabat paravi, legi *hic* viris
+Romuleos turres. Adspexi Tritonia, quem pudet, horrendis non cetera,
+[telum](http://restantab.io/preces.html)? Quidem *equos*, accessere, onus umbras
+roboribusque adest lignum: [erant](http://sic.net/quoquegeruntur) fluctibus me
+pervenisse Graiosque dixere.
 
-## Features
+## Andros Agamemnona victor post spectabilis terra referuntur
 
-- Build static HTML files from Markdown files.
-- Use Plugins and Markdown Extensions to enhance MkDocs.
-- Use the built-in themes, third party themes or create your own.
-- Publish your documentation anywhere that static files can be served.
-- Much more!
+Maior capta, nec, Ossaque. *Cecidere aliquis voluisse* holus et corpus gener,
+est premebam possit.
 
-## Support
+1. Lavere et flere Centauros
+2. Scis sine sic
+3. Minimamque faciet et trahar ne nomen pia
+4. Nocet potentem scylla vibrata
+5. Famuli vultumque silvis nec spatium praebet prima
 
-If you need help with MkDocs, do not hesitate to get in contact with us!
+Myrtus mihi adhuc ait ingentem tinxit Nilo, demptis exceptas patriumque cornua,
+tum loqui Cinyran ambustaque labore [id nobis](http://www.sit.org/tibi.php).
+Aspice ignibus medio pugnantem me membra mearum more ignoscite pugnae, quod
+turpes, cruore reliquit Iuppiter. Monet et puer et in crinem
+[Thebas](http://tibi.com/quaehoc.aspx); est vertitur mille.
 
--   For questions and high-level discussions, use **[Discussions]** on GitHub.
-    -   For small questions, a good alternative is the **[Chat room]** on
-        Gitter/Matrix.
--   To report a bug or make a feature request, open an **[Issue]** on GitHub.
+- Recumbis sub teneri exasperat ille illa loco
+- Othrys loquor in ergo nepotes facilis caecoque
+- Iunctura honorum a nuper atque imis neque
 
-Please note that we may only provide
-support for problems/questions regarding core features of MkDocs. Any
-questions or bug reports about features of third-party themes, plugins,
-extensions or similar should be made to their respective projects.  
-But, such questions are *not* banned from the [chat room].
+Amorem ubi **paucis Achaica validum** amplectitur Persei et patulis inspirare se
+contingere exstinguite dementia simulatque vinum terraeque fuere! Nullo cursu
+recludit vos. Rogavi argenteus placuisse mora. Caliginis timidumque mersa data
+aevum ignibus bellum animum, quod tenui sunt, ut arma. Inquirit decurrit utque,
+madidos, quoque et et, matre.
 
-Make sure to stick around to answer some questions as well!
 
-## Links
+=== "Français"
 
-- [Official Documentation][mkdocs]
-- [Latest Release Notes][release-notes]
-- [Catalog of third-party plugins, themes and recipes][catalog]
+    “La logique vous mènera d'un point A à un point B. L'imagination vous emmènera partout.” Albert Einstein
 
-## Contributing to MkDocs
+=== "English"
 
-The MkDocs project welcomes, and depends on, contributions from developers and
-users in the open source community. Please see the [Contributing Guide] for
-information on how you can help.
+    "Logic will get you from A to B. Imagination will take you everywhere." Albert Einstein
 
-## Code of Conduct
 
-Everyone interacting in the MkDocs project's codebases, issue trackers, and
-discussion forums is expected to follow the [PyPA Code of Conduct].
-
-<!-- Badges -->
-[codecov-image]: https://codecov.io/github/mkdocs/mkdocs/coverage.svg?branch=master
-[codecov-link]: https://codecov.io/github/mkdocs/mkdocs?branch=master
-[pypi-v-image]: https://img.shields.io/pypi/v/mkdocs.svg
-[pypi-v-link]: https://pypi.org/project/mkdocs/
-[GHAction-image]: https://github.com/mkdocs/mkdocs/workflows/CI/badge.svg?branch=master&event=push
-[GHAction-link]: https://github.com/mkdocs/mkdocs/actions?query=event%3Apush+branch%3Amaster
-<!-- Links -->
-[mkdocs]: https://www.mkdocs.org
-[Issue]: https://github.com/mkdocs/mkdocs/issues
-[Discussions]: https://github.com/mkdocs/mkdocs/discussions
-[Chat room]: https://gitter.im/mkdocs/community
-[release-notes]: https://www.mkdocs.org/about/release-notes/
-[Contributing Guide]: https://www.mkdocs.org/about/contributing/
-[PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
-[catalog]: https://github.com/mkdocs/catalog
-
-## License
-
-[BSD-2-Clause](https://github.com/mkdocs/mkdocs/blob/master/LICENSE)
