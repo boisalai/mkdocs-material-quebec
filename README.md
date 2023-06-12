@@ -87,7 +87,7 @@ sans avoir à installer l'application sur votre ordinateur. Il suffit de vous re
 
 ### Étape 3: Ajustez le fichier de configuration `mkdocs.yml`.
 
-Avec VS Code, changez la ligne `site_name:` en remplaçant le nom par celui de votre documentation.
+Avec [VS Code](https://vscode.dev/), changez la ligne `site_name:` en remplaçant le nom par celui de votre documentation.
 
 Ajustez la structure de navigation dans la section `nav:` pour qu'elle corresponde à votre structure de documentation.
 
@@ -112,17 +112,20 @@ N'hésitez pas à modifier le contenu et la structure de votre documentation sel
 
 ### Étape 4: Générez votre documentation 
 
-Compressez le répertoire contenant votre documentation dans un fichier ZIP. 
+Compressez le répertoire contenant votre documentation dans un fichier ZIP.
+Supposons que vous nommez ce fichier compressé `docum.zip`. 
 
 Ouvrez ce [fichier Google Colab](https://colab.research.google.com/drive/17bBL-oIsmS3bYaSN3tf6FhZ1EA9KFEJG?usp=sharing).
 
 Google Colab est une plateforme de développement et d'exécution de code en ligne, gratuite, principalement utilisée pour le langage de programmation Python.
 
-Exécutez la cellule en cliquant sur l'icône de lecture <img src="docs/assets/bouton-jouer.png" width="15">.
+Exécutez la cellule en cliquant sur l'icône <img src="docs/assets/bouton-jouer.png" width="15">.
 
-Google Colab vous demandera de sélectionner le fichier à charger sur le serveur. Sélectionnez le fichier `mkdocs-material-quebec.zip`. 
+Google Colab vous demandera de sélectionner le fichier à charger sur le serveur. Sélectionnez le 
+fichier compressé de votre documentation (`docum.zip`). 
 
-Ensuite, Google Colab générera une nouvelle version de votre site statique et téléversera automatiquement sur votre ordinateur le fichier compressé `site.zip`. 
+Ensuite, Google Colab générera une nouvelle version de votre site statique et 
+téléversera automatiquement sur votre ordinateur le fichier compressé `site.zip`. 
 Décompressez-le pour accéder à votre documentation mise à jour.
 
 
