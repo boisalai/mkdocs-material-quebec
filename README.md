@@ -16,7 +16,7 @@ ensemble de principes et de directives de conception permettant de créer des in
 
 ## Utilisation
 
-Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son ordinateur, n'a pas accès à la fenêtre du terminal et n'a pas Python.
+Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son ordinateur, n'a pas accès à la fenêtre du terminal de son ordinateur et n'a peut pas exécuter de scripts Python.
 
 ### Étape 1: Téléchargez le gabarit MkDocs
 
@@ -25,8 +25,9 @@ puis sélectionnez **Download ZIP**.
 
 ![Téléchargement ZIP](docs/assets/fig2.png)
 
-Ensuite, décompressez le fichier ZIP (son nom devrait être `mkdocs-material-quebec-main.zip`). 
-Vous pouvez déplacer le répertoire `mkdocs-material-quebec-main` où vous le souhaitez sur votre ordinateur ou votre réseau local.
+Une fois téléchargé, décompressez le fichier ZIP (son nom devrait être `mkdocs-material-quebec-main.zip`). 
+Vous pouvez déplacer et renommer le répertoire `mkdocs-material-quebec-main` où vous le souhaitez sur 
+votre ordinateur ou votre réseau local.
 
 Voici la structure de ce répertoire :
 
@@ -86,7 +87,7 @@ sans avoir à installer l'application sur votre ordinateur. Il suffit de vous re
 
 ### Étape 3: Ajustez le fichier de configuration `mkdocs.yml`.
 
-Changez la ligne `site_name:` en remplaçant le nom par celui de votre documentation.
+Avec VS Code, changez la ligne `site_name:` en remplaçant le nom par celui de votre documentation.
 
 Ajustez la structure de navigation dans la section `nav:` pour qu'elle corresponde à votre structure de documentation.
 
@@ -111,7 +112,7 @@ N'hésitez pas à modifier le contenu et la structure de votre documentation sel
 
 ### Étape 4: Générez votre documentation 
 
-Compressez le répertoire `mkdocs-material-quebec-main` pour créer le fichier `mkdocs-material-quebec-main.zip`.
+Compressez le répertoire contenant votre documentation dans un fichier ZIP. 
 
 Ouvrez ce [fichier Google Colab](https://colab.research.google.com/drive/17bBL-oIsmS3bYaSN3tf6FhZ1EA9KFEJG?usp=sharing).
 
