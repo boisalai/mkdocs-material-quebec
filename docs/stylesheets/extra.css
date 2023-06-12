@@ -122,6 +122,20 @@ li {
 }
 
 .md-typeset table:not([class]) {
+    border-collapse: collapse;
+    border: 1px solid var(--md-typeset-table-color);
+    display: table;
+}
+
+tr:nth-child(even) {
+    background-color: var(--md-code-bg-color);
+}
+
+td, th {
+    border: 1px solid var(--md-typeset-table-color);
+}
+
+.md-typeset table:not([class]) {
     font-size: 16px !important;
 }
 
@@ -135,8 +149,6 @@ li {
 
 .md-typeset code {
     font-size: 14px;
-    /*color: #D13118;*/
-    /*background-color: #F3F2F1;*/
 }
 
 /* Avertissement. Warning. */
