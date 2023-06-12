@@ -98,8 +98,7 @@ copyright: Texte apparaissant au bas des pages à remplacer
 nav:
   - Accueil:
     - index.md
-    - home/markdown-folder/markdown.md
-    - home/Markdown-Cheatsheet.md
+    - home/markdown-cheat-sheet.md
     - home/about.md
   - Section 1:
     - part1/page1.md
