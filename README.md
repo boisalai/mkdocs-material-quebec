@@ -83,7 +83,7 @@ sans avoir à installer l'application sur votre ordinateur. Il suffit de vous re
 
 ![](docs/assets/fig3.png)
 
-### Étape 3: Ajustez le fichier de configuration `mkdocs.yml`.
+### Étape 3: Ajustez le fichier de configuration `mkdocs.yml`
 
 Avec [VS Code](https://vscode.dev/), changez la ligne `site_name:` en remplaçant le nom par celui de votre documentation.
 
