@@ -125,7 +125,7 @@ Exécutez la cellule en cliquant sur l'icône <img src="docs/assets/bouton-jouer
 Google Colab vous demandera de sélectionner le fichier ZIP à charger sur son serveur. Sélectionnez le 
 fichier compressé de votre documentation (`docum.zip`).  
 
-**Assurez-vous de ne jamais charger de donnéess confidentielles
+:warning: **Assurez-vous de ne jamais charger de donnéess confidentielles
 ou sensibles.**
 
 Google Colab générera une nouvelle version de votre site statique et 
