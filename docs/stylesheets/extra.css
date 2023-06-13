@@ -157,7 +157,7 @@ td, th {
 }
 
 .md-typeset table:not([class]) {
-  font-size: 14px !important;
+  font-size: 16px !important;
 }
 
 .md-typeset table:not([class]) th {
@@ -170,7 +170,7 @@ td, th {
 
 /* Code */
 .md-typeset code {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Avertissement. Warning. */
