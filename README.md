@@ -16,7 +16,7 @@ ensemble de principes et de directives de conception permettant de créer des in
 
 Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son ordinateur, 
 n'a pas accès à la fenêtre du terminal de son ordinateur, ne peut pas installer de librairies 
-et n'a peut pas exécuter de scripts Python.
+et n'a pas accès à un environnement d'exécution Python.
 
 ### Étape 1: Téléchargez le gabarit MkDocs
 
@@ -85,7 +85,9 @@ sans avoir à installer l'application sur votre ordinateur. Il suffit de vous re
 
 ### Étape 3: Ajustez le fichier de configuration `mkdocs.yml`
 
-Avec [VS Code](https://vscode.dev/), changez la ligne `site_name:` en remplaçant le nom par celui de votre documentation.
+Avec [VS Code](https://vscode.dev/), ajustez le fichier `mkdocs.yml`. 
+
+Changez la ligne `site_name:` en remplaçant le nom par celui de votre documentation.
 
 Ajustez la structure de navigation dans la section `nav:` pour qu'elle corresponde à votre structure de documentation.
 
@@ -115,18 +117,21 @@ Supposons que vous nommez ce fichier compressé `docum.zip`.
 
 Ouvrez ce [fichier Google Colab](https://colab.research.google.com/drive/17bBL-oIsmS3bYaSN3tf6FhZ1EA9KFEJG?usp=sharing).
 
-Google Colab est une plateforme de développement et d'exécution de code en ligne, gratuite, principalement utilisée pour le langage de programmation Python.
+Google Colab est une plateforme de développement et d'exécution de code en ligne, 
+gratuite, principalement utilisée pour le langage de programmation Python.
 
 Exécutez la cellule en cliquant sur l'icône <img src="docs/assets/bouton-jouer.png" width="15">.
 
-Google Colab vous demandera de sélectionner le fichier à charger sur le serveur. Sélectionnez le 
-fichier compressé de votre documentation (`docum.zip`). 
+Google Colab vous demandera de sélectionner le fichier ZIP à charger sur son serveur. Sélectionnez le 
+fichier compressé de votre documentation (`docum.zip`).  
+**Assurez-vous de ne jamais charger de donnéess confidentielles
+ou sensibles.**
 
-Ensuite, Google Colab générera une nouvelle version de votre site statique et 
-téléversera automatiquement sur votre ordinateur le fichier compressé `site.zip`. 
+Google Colab générera une nouvelle version de votre site statique et 
+le téléversera automatiquement sur votre ordinateur sous la forme d'un fichier compressé `site.zip`. 
 Décompressez-le pour accéder à votre documentation mise à jour.
 
 ## Comment contribuer au projet
 
-Simplement faire un "pull request" pour proposer des modifications au code.
+Simplement soumettre un "pull request" pour proposer des modifications au code.
 

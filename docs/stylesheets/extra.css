@@ -161,11 +161,11 @@ td, th {
 }
 
 .md-typeset table:not([class]) th {
-  padding: 4px 8px;
+  padding: 4px 9px;
 }
 
 .md-typeset table:not([class]) td {
-  padding: 4px 8px;
+  padding: 4px 9px;
 }
 
 /* Code */
