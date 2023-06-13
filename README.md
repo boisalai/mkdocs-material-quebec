@@ -14,10 +14,6 @@ ensemble de principes et de directives de conception permettant de créer des in
 
 ## Utilisation
 
-Les instructions ci-dessous supposent que l'utilisateur n'a aucun droit d'administration sur son ordinateur, 
-n'a pas accès à la fenêtre du terminal de son ordinateur, ne peut pas installer de librairies 
-et n'a pas accès à un environnement d'exécution Python.
-
 ### Étape 1: Téléchargez le gabarit MkDocs
 
 Téléchargez ce [dépôt GitHub](https://github.com/boisalai/mkdocs-material-quebec) au format ZIP en cliquant sur le bouton **Code**, 
@@ -112,25 +108,37 @@ N'hésitez pas à modifier le contenu et la structure de votre documentation sel
 
 ### Étape 4: Générez votre documentation 
 
-Compressez le répertoire contenant votre documentation dans un fichier ZIP.
-Supposons que vous nommez ce fichier compressé `docum.zip`. 
+#### Option 1
 
-Ouvrez ce [fichier Google Colab](https://colab.research.google.com/drive/17bBL-oIsmS3bYaSN3tf6FhZ1EA9KFEJG?usp=sharing).
+L'option 1 suppose que votre ordinateur est sous Linux/macOS. Exécutez les commandes suivantes :
 
+```bash
+pip install -U mkdocs-material
+cd mkdocs-material-quebec-main
+mkdocs build --no-directory-urls
+```
+
+#### Option 2
+
+L'option 2 suppose que votre ordinateur est sous Windows sans aucun droit d'administration, 
+vous n'avez pas accès à la fenêtre du terminal, et vous ne pouvez pas installer de librairies sur votre ordinateur.
+
+Dans ce contexte, pour générer votre documentation, 
+vous n'avez pas d'autre choix que d'utiliser un environnement d'exécution sur un serveur distant. 
+
+:warning: **Votre documentation ne doit pas contenir d'informations confidentielles ou sensibles.**
+
+Suivez les étapes suivantes :
+
+1. Compressez le répertoire contenant votre documentation dans un fichier ZIP. Supposons que vous nommez ce fichier compressé `docum.zip`. 
+2. Ouvrez ce [fichier Google Colab](https://colab.research.google.com/drive/17bBL-oIsmS3bYaSN3tf6FhZ1EA9KFEJG?usp=sharing).
 Google Colab est une plateforme de développement et d'exécution de code en ligne, 
 gratuite, principalement utilisée pour le langage de programmation Python.
-
-Exécutez la cellule en cliquant sur l'icône <img src="docs/assets/bouton-jouer.png" width="15">.
-
+3. Exécutez la cellule en cliquant sur l'icône <img src="docs/assets/bouton-jouer.png" width="15">.
 Google Colab vous demandera de sélectionner le fichier ZIP à charger sur son serveur. Sélectionnez le 
-fichier compressé de votre documentation (`docum.zip`).  
-
-:warning: **Assurez-vous de ne jamais charger de donnéess confidentielles
-ou sensibles.**
-
-Google Colab générera une nouvelle version de votre site statique et 
+fichier compressé de votre documentation (`docum.zip`). Google Colab générera une nouvelle version de votre site statique et 
 le téléversera automatiquement sur votre ordinateur sous la forme d'un fichier compressé `site.zip`. 
-Décompressez-le pour accéder à votre documentation mise à jour.
+4. Décompressez-le pour accéder à votre documentation mise à jour.
 
 ## Comment contribuer au projet
 
