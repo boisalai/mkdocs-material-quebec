@@ -113,7 +113,7 @@ N'hésitez pas à modifier le contenu et la structure de votre documentation sel
 L'option 1 suppose que votre ordinateur est sous Linux/macOS. Exécutez les commandes suivantes :
 
 ```bash
-pip install -U mkdocs-material
+pip install mkdocs-material==9.1.15
 cd mkdocs-material-quebec-main
 mkdocs build --no-directory-urls
 ```
