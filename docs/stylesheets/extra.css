@@ -144,16 +144,18 @@ li {
 /* Tableau */
 .md-typeset table:not([class]) {
   border-collapse: collapse;
-  border: 1px solid var(--md-typeset-table-color);
+  border: 0px;
   display: table;
 }
 
-tr:nth-child(even) {
-  background-color: var(--md-code-bg-color);
+td, th {
+  border-top: 1px solid var(--md-typeset-table-color);
+  border-bottom: 1px solid var(--md-typeset-table-color);
 }
 
-td, th {
-  border: 1px solid var(--md-typeset-table-color);
+th {
+  background-color: var(--qc-color-blue-dark);
+  color: #ffffff;
 }
 
 .md-typeset table:not([class]) {

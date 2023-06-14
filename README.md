@@ -68,7 +68,7 @@ modifier ce répertoire.
 Les répertoires `docs/home`, `docs/part1` et `docs/part2` contiennent des pages de votre documentation sous la forme de fichiers au format 
 Markdown. Vous pouve modifier ces répertoires et leurs fichiers pour créer votre propre documentation.
 
-Vous pouvez supprimer les fichiers `README.md` et `git.sh` qui sont inutiles pour votre usage.
+Vous pouvez supprimer les fichiers `README.md`, `git.sh` et `LICENSE` qui sont inutiles pour votre usage.
 
 ### Étape 2: Rédigez votre documentation
 
