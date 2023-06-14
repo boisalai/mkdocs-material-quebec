@@ -9,7 +9,6 @@ theme:
     text: "Open Sans"
     code: Roboto Mono
   features:
-    - navigation.footer
     - navigation.tabs
     - navigation.path
     - navigation.top
