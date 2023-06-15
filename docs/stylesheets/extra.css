@@ -58,10 +58,27 @@ a.md-tabs__link:hover {
   color: #ffffff;
 }
 
-/* Bas de page. */
+.md-footer__link {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+/* BAS DE PAGE. */
+
+.md-footer {
+  background-color: var(--qc-color-blue-dark);
+  color: #ffffff;
+}
+
+.md-footer__title {
+  font-size: 14px;
+}
+
 .md-footer-meta {
   background-color: var(--qc-color-blue-dark);
 }
+
+/* TEXTE PRINCIPAL. */
 
 /* Réduire l'espace au début du texte. */
 .md-main__inner {
